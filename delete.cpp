@@ -49,7 +49,7 @@ tree deleteroot(tree a, int key) {
     return a;
 }
 
-tree delete(tree a, int key) {
+tree deletefromtree(tree a, int key) {
 	 tree p = nodesearch(a, key);
     if (p != NULL) {
         if (p->node.number == key) {
